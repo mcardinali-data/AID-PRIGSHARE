@@ -110,7 +110,7 @@ A calculation of all indicators takes about 6 hours on a MacBook pro with M1 pro
 
 Spatial indices simply speed up processing. The warning communicates that the calculation time will be longer without a spatial index, but this will not affect the result. If you have a very large dataset and want to speed up the process, consider adding a spatial index to your layer(s).
 
-### Log shows feature (Number) from Layer (Name) has invalid geometry and has been skipped.
+### Log shows feature (number) from Layer (name) has invalid geometry and has been skipped.
 
 This means that the some geometry features in your layer cannot be used to calculate the indicators. This might be ignored, depending on the percentage of flawed geometries. For example, several dozens of those messages in a very large walkability layer with 10,000 of lines, might be ignorable. But five of those messages for a public green space layer consisting of 20 polygons should be taken seriously. There are several possible pairs of invalid geometries and solutions that cannot be covered here. 
 
