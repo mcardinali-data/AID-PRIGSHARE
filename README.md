@@ -88,11 +88,10 @@ XXX, Preferred Reporting Items in Green Space Health Research. Guiding Principle
 
 
 # Example
-<img width="1833" alt="Nantes Input Layers" src="https://user-images.githubusercontent.com/80674342/222114313-c78a1736-4e1f-4814-aec5-9a1c9e564081.png">
-Input Layers
+<img width="1833" alt="Nantes Input Layers" src="https://user-images.githubusercontent.com/80674342/222114313-c78a1736-4e1f-4814-aec5-9a1c9e564081.png"> Input Layers
 
-<img width="1143" alt="S1 3 PRIGSHARE Script Input Mask" src="https://user-images.githubusercontent.com/80674342/222114658-e9ea0a2a-130b-4756-91c8-962fa43506bd.png">
-Input Mask
+
+<img width="1143" alt="S1 3 PRIGSHARE Script Input Mask" src="https://user-images.githubusercontent.com/80674342/222114658-e9ea0a2a-130b-4756-91c8-962fa43506bd.png"> Input Mask
 
 
 Algorithm Output
@@ -119,4 +118,7 @@ This means that the some geometry features in your layer cannot be used to calcu
 
 This error occurs predominantly when the ID field is not filled properly. Please check for spelling mistakes.
 
+### I want to calcualate only specific distances. Can I do that?
+
+Unfortunately this feature is not implemented at the moment. The way the algorithm is designed makes it necessary that every output layer exists, otherwise the process will fail. 
 
