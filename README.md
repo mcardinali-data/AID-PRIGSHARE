@@ -1,8 +1,8 @@
 # AID-PRIGSHARE
 ## Automazition of Indicator Development for Green Space Health Research in QGIS
-
 ---
 Accompanying Script to the PRIGSHARE Reporting Guidelines (doi...)
+
 ---
 
 Thank you for using the PRIGSHARE algorithm to generate green space indicators. 
