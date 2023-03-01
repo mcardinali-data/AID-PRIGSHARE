@@ -1,21 +1,22 @@
 # AID-PRIGSHARE
 ## Automazition of Indicator Development for Green Space Health Research in QGIS
 
-Accompanying Script to the PRIGSHARE Reporting Guidelines (doi...)
-
----
-
-Thank you for using the PRIGSHARE algorithm to generate green space indicators. 
+Thank you for using the PRIGSHARE algorithm to generate green space indicators.
 The PRIGSHARE_QGIS_Script will produce green space and greenness indicators in distances from 100-1.500m every 100m automatically. 
 
 A frequent demand in the interdisciplinary field of green space health research is to reduce the effort to assess green space, especially for non-spatial disciplines. Realizing this issue, we developed AID-PRIGSHARE. AID-PRIGSHARE is an open-source script with an easy-to-use user interface that substantially reduces the time-intensive task of green space indicator generation by automatization. AID-PRIGSHARE will simultaneously calculate the greenness, green space amount, access to green infrastructure, and green space uses within distances of 100-1500m around a (home) address if the input layers are provided. This substantially reduces the effort for sensitivity analysis and may provide support for research that aims to better understand the individual characteristics of green spaces and their effect range. 
 
 The script requires the input of addresses of individuals (point layer). Other inputs are only necessary for specific calculations (see input parameters below).
 
+The validity of the algorithm output will depend on the validity of the input layers provived. Please check the PRIGSHARE Reporting Guidelines for common sources of bias in green space assessment. 
+
+Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplnary field (Cardinali et al 2023a). doi: ....
+
 ---
 
-Please cite the following paper:
-XXX, Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field
+If you used AID-PRIGSHARE in your research, please cite the following paper:
+AID-PRIGSHARE: Automatization of Indicator Development in Green Space Health Research in QGIS. Accompanying Script to the PRIGSHARE Reporting Guidelines.
+(Cardinali et al 2023b), doi...
 
 ---
 
