@@ -1,5 +1,5 @@
 # AID-PRIGSHARE
-Automated Indicator Generation for Green Space Health Research in QGIS
+## Automated Indicator Generation for Green Space Health Research in QGIS
 
 Thank you for using the PRIGSHARE algorithm to generate green space indicators. 
 The PRIGSHARE_QGIS_Script will produce green space and greenness indicators in distances from 100-1.500m every 100m automatically. The script requires the input of addresses of individuals (point layer), a vectorized vegetation index (polygon layer), a layer of accessible green spaces (polygon layer), and a layer with walkable streets and pathways (line layer) as input.
@@ -7,7 +7,7 @@ The PRIGSHARE_QGIS_Script will produce green space and greenness indicators in d
 Please cite the following paper:
 XXX, Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field
 
-![Flow diagram of algorithm tasks](https://user-images.githubusercontent.com/80674342/222116048-8480d138-7380-47db-adc3-8b4cf32a3551.png)
+![Fig3 task chains](https://user-images.githubusercontent.com/80674342/222116342-e74ccbd8-9caa-42ed-8c92-0bcf8599c832.png)
 
 
 ## BEFORE YOU BEGIN 
@@ -99,5 +99,24 @@ Algorithm Output
 
 # Graphical Model
 ![S1 4 PRIGSHARE_Graphical_Model](https://user-images.githubusercontent.com/80674342/222114805-cd62806d-0ec4-4531-a85f-8cb4b7b2b27d.png)
+
+
+# FAQ
+
+### How long does the calculation approximately? The calculation time is very long and not progressing for a long time.
+
+A calculation of all indicators takes about 8 hours on a MacBook pro with M1 processor for around 450 observations. Depending on your own machine and the number of observations this might take considerably longer. Even if the loading bar is not progressing for some time, the machine should be working in the background. We suggest running the algorithm before you leave your desk and just letting it run overnight. 
+
+### The Log shows “no spatial index exists for join layer, performance will be severely degraded”.
+
+Spatial indices simply speed up processing. The warning communicates that the calculation time will be longer without a spatial index, but this will not affect the result. If you have a very large dataset and want to speed up the process, consider adding a spatial index to your layer(s).
+
+### Log shows feature (xxxx) from “Walkability_Layer” has invalid geometry and has been skipped.
+
+This means that some geometry features in your layer have an unexpected or impossible geometry like…
+
+### Why do I get the message “fails to join attributes by…” and the process failed. 
+
+This error occurs when the ID field is not filled properly. Please check for spelling mistakes.
 
 
