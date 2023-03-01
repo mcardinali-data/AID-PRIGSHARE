@@ -11,7 +11,7 @@ XXX, Preferred Reporting Items in Green Space Health Research. Guiding Principle
 
 
 ## BEFORE YOU BEGIN 
-Check out the PRIGSHARE statement (Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field) and use the guidelines to eliminate noise from your data as much as possible. The script will run approximately 6 hours on a macbook pro M1 with 32GB RAM if you request all layers. Actual computation time will depend on your machine and the extension of your input data.
+Check out the PRIGSHARE statement (Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field) and use the guidelines to eliminate noise from your data as much as possible. The script will run approximately 6 hours on a macbook pro M1 with 32GB RAM if you request all indicators for 400 observations. Actual computation time will depend on your machine and the extension of your input data.
 
 ## INSTALLATION
 Just open the downloaded file „PRIGSHARE_QGIS_Script.model3“ within the QGIS browser panel with a double-click. This should open an input mask with the following parameters:
@@ -103,20 +103,20 @@ Algorithm Output
 
 # FAQ
 
-### How long does the calculation approximately? The calculation time is very long and not progressing for a long time.
+### How long does the calculation take approximately? The calculation time is very long and not progressing for a long time.
 
-A calculation of all indicators takes about 8 hours on a MacBook pro with M1 processor for around 450 observations. Depending on your own machine and the number of observations this might take considerably longer. Even if the loading bar is not progressing for some time, the machine should be working in the background. We suggest running the algorithm before you leave your desk and just letting it run overnight. 
+A calculation of all indicators takes about 6 hours on a MacBook pro with M1 processor for around 400 observations. Depending on your own machine and the number of observations this might take considerably longer. Even if the loading bar is not progressing for some time and QGIS seems to be frozen, the machine should be working in the background. We suggest running the algorithm before you leave your desk and just letting it run overnight. 
 
 ### The Log shows “no spatial index exists for join layer, performance will be severely degraded”.
 
 Spatial indices simply speed up processing. The warning communicates that the calculation time will be longer without a spatial index, but this will not affect the result. If you have a very large dataset and want to speed up the process, consider adding a spatial index to your layer(s).
 
-### Log shows feature (xxxx) from “Walkability_Layer” has invalid geometry and has been skipped.
+### Log shows feature (Number) from Layer (Name) has invalid geometry and has been skipped.
 
-This means that some geometry features in your layer have an unexpected or impossible geometry like…
+This means that the some geometry features in your layer cannot be used to calculate the indicators. This might be ignored, depending on the percentage of flawed geometries. For example, several dozens of those messages in a very large walkability layer with 10,000 of lines, might be ignorable. But five of those messages for a public green space layer consisting of 20 polygons should be taken seriously. There are several possible pairs of invalid geometries and solutions that cannot be covered here. 
 
 ### Why do I get the message “fails to join attributes by…” and the process failed. 
 
-This error occurs when the ID field is not filled properly. Please check for spelling mistakes.
+This error occurs predominantly when the ID field is not filled properly. Please check for spelling mistakes.
 
 
