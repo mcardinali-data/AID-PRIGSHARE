@@ -8,14 +8,19 @@ A frequent demand in the interdisciplinary field of green space health research 
 
 The script requires the input of addresses of individuals (point layer). Other inputs are only necessary for specific calculations (see input parameters below).
 
-The validity of the algorithm output will depend on the validity of the input layers provived. Please check the PRIGSHARE Reporting Guidelines for common sources of bias in green space assessment. 
 
-Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplnary field (Cardinali et al 2023a). doi: ....
+
+
 
 ---
+## BEFORE YOU BEGIN 
+The validity of the algorithm output will depend on the validity of the input layers provived. Please check the PRIGSHARE Reporting Guidelines for common sources of bias in green space assessment and use the guidelines to eliminate noise from your data as much as possible. 
+
+> Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplnary field (Cardinali et al 2023a). doi: ....
 
 If you used AID-PRIGSHARE in your research, please cite the following paper:
-AID-PRIGSHARE: Automatization of Indicator Development in Green Space Health Research in QGIS. Accompanying Script to the PRIGSHARE Reporting Guidelines.
+
+> AID-PRIGSHARE: Automatization of Indicator Development in Green Space Health Research in QGIS. Accompanying Script to the PRIGSHARE Reporting Guidelines.
 (Cardinali et al 2023b), doi...
 
 ---
@@ -23,8 +28,7 @@ AID-PRIGSHARE: Automatization of Indicator Development in Green Space Health Res
 ![Fig3 task chains](https://user-images.githubusercontent.com/80674342/222116342-e74ccbd8-9caa-42ed-8c92-0bcf8599c832.png) Task chains of the script
 
 
-## BEFORE YOU BEGIN 
-Check out the PRIGSHARE statement (Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field) and use the guidelines to eliminate noise from your data as much as possible. The script will run approximately 6 hours on a macbook pro M1 with 32GB RAM if you request all indicators for 400 observations. Actual computation time will depend on your machine and the extension of your input data.
+
 
 ## INSTALLATION
 Just open the downloaded file „PRIGSHARE_QGIS_Script.model3“ within the QGIS browser panel with a double-click. This should open an input mask with the following parameters:
