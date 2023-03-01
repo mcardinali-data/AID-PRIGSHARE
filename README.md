@@ -83,4 +83,18 @@ Algorithm version: 0.9
 Please cite the following paper:
 XXX, Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field
 
-![Uploading Nantes Input Layers.png…]()
+
+# Example
+<img width="1833" alt="Nantes Input Layers" src="https://user-images.githubusercontent.com/80674342/222114313-c78a1736-4e1f-4814-aec5-9a1c9e564081.png">
+Input Layers
+
+<img width="1143" alt="S1 3 PRIGSHARE Script Input Mask" src="https://user-images.githubusercontent.com/80674342/222114658-e9ea0a2a-130b-4756-91c8-962fa43506bd.png">
+Input Mask
+
+
+Algorithm Output
+
+# Graphical Model
+![S1 4 PRIGSHARE_Graphical_Model](https://user-images.githubusercontent.com/80674342/222114805-cd62806d-0ec4-4531-a85f-8cb4b7b2b27d.png)
+
+
