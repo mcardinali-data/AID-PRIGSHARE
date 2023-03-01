@@ -2,7 +2,13 @@
 ## Automated Indicator Generation for Green Space Health Research in QGIS
 
 Thank you for using the PRIGSHARE algorithm to generate green space indicators. 
-The PRIGSHARE_QGIS_Script will produce green space and greenness indicators in distances from 100-1.500m every 100m automatically. The script requires the input of addresses of individuals (point layer), a vectorized vegetation index (polygon layer), a layer of accessible green spaces (polygon layer), and a layer with walkable streets and pathways (line layer) as input.
+The PRIGSHARE_QGIS_Script will produce green space and greenness indicators in distances from 100-1.500m every 100m automatically. 
+
+A frequent demand in the interdisciplinary field of green space health research is to reduce the effort to assess green space, especially for non-spatial disciplines. Realizing this issue, we developed AID-PRIGSHARE. AID-PRIGSHARE is an open-source script with an easy-to-use user interface that substantially reduces the time-intensive task of green space indicator generation by automatization. AID-PRIGSHARE will simultaneously calculate the greenness, green space amount, access to green infrastructure, and green space uses within distances of 100-1500m around a (home) address if the input layers are provided. This substantially reduces the effort for sensitivity analysis and may provide support for research that aims to better understand the individual characteristics of green spaces and their effect range. 
+
+The script requires the input of addresses of individuals (point layer). Other inputs are only necessary for specific calculations (see input parameters below).
+
+- 
 
 Please cite the following paper:
 XXX, Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field
