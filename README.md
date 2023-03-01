@@ -92,6 +92,7 @@ If provided, the PRIGSHARE algorithm will add the indicators GS_uses and GS_dive
 ## ADAPTING AND CHANGING THE SCRIPT ##
 In order to change the algorithm (e.g. to generate output with more/other distances), you can open the file from the processing toolbox of QGIS and click on „load existing model“. Or you can right-click on the model file in the browser panel and click „edit model“. Here is the documentation to work with the graphical modeler: https://docs.qgis.org/3.22/en/docs/user_manual/processing/modeler.html
 
+---
 # Example
 <img width="1833" alt="Nantes Input Layers" src="https://user-images.githubusercontent.com/80674342/222114313-c78a1736-4e1f-4814-aec5-9a1c9e564081.png"> Input Layers
 
@@ -101,10 +102,11 @@ In order to change the algorithm (e.g. to generate output with more/other distan
 
 Algorithm Output
 
+---
 # Graphical Model
 ![S1 4 PRIGSHARE_Graphical_Model](https://user-images.githubusercontent.com/80674342/222114805-cd62806d-0ec4-4531-a85f-8cb4b7b2b27d.png)
 
-
+---
 # FAQ
 
 ### How long does the calculation take approximately? The calculation time is very long and not progressing for a long time.
