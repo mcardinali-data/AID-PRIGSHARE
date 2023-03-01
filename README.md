@@ -92,18 +92,6 @@ If provided, the PRIGSHARE algorithm will add the indicators GS_uses and GS_dive
 ## ADAPTING AND CHANGING THE SCRIPT ##
 In order to change the algorithm (e.g. to generate output with more/other distances), you can open the file from the processing toolbox of QGIS and click on „load existing model“. Or you can right-click on the model file in the browser panel and click „edit model“. Here is the documentation to work with the graphical modeler: https://docs.qgis.org/3.22/en/docs/user_manual/processing/modeler.html
 
-## CREDITS ##
-Algorithm author: Marcel Cardinali (a,b)
-a) Institute for Design Strategies at OWL University of Applied Science
-b) Faculty of Architecture & Built Environment at Delft University of Technology
-
-For questions please contact marcel.cardinali(at)th-owl.de
-Algorithm version: 0.9
-
-Please cite the following paper:
-XXX, Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field
-
-
 # Example
 <img width="1833" alt="Nantes Input Layers" src="https://user-images.githubusercontent.com/80674342/222114313-c78a1736-4e1f-4814-aec5-9a1c9e564081.png"> Input Layers
 
