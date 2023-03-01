@@ -7,6 +7,9 @@ The PRIGSHARE_QGIS_Script will produce green space and greenness indicators in d
 Please cite the following paper:
 XXX, Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field
 
+![Flow diagram of algorithm tasks](https://user-images.githubusercontent.com/80674342/222116048-8480d138-7380-47db-adc3-8b4cf32a3551.png)
+
+
 ## BEFORE YOU BEGIN 
 Check out the PRIGSHARE statement (Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field) and use the guidelines to eliminate noise from your data as much as possible. The script will run approximately 6 hours on a macbook pro M1 with 32GB RAM if you request all layers. Actual computation time will depend on your machine and the extension of your input data.
 
