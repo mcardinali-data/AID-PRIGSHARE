@@ -8,12 +8,14 @@ A frequent demand in the interdisciplinary field of green space health research 
 
 The script requires the input of addresses of individuals (point layer). Other inputs are only necessary for specific calculations (see input parameters below).
 
-- 
+---
 
 Please cite the following paper:
 XXX, Preferred Reporting Items in Green Space Health Research. Guiding Principles for an interdisciplinary field
 
-![Fig3 task chains](https://user-images.githubusercontent.com/80674342/222116342-e74ccbd8-9caa-42ed-8c92-0bcf8599c832.png)
+---
+
+![Fig3 task chains](https://user-images.githubusercontent.com/80674342/222116342-e74ccbd8-9caa-42ed-8c92-0bcf8599c832.png) Task chains of the script
 
 
 ## BEFORE YOU BEGIN 
