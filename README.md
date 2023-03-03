@@ -95,24 +95,26 @@ In order to change the algorithm (e.g. to generate output with more/other distan
 
 ---
 # Example
-<img width="1833" alt="Nantes Input Layers" src="https://user-images.githubusercontent.com/80674342/222114313-c78a1736-4e1f-4814-aec5-9a1c9e564081.png"> Input Layers
+<img width="1632" alt="Example Nantes" src="https://user-images.githubusercontent.com/80674342/222807390-a9c94a84-b2d3-4fe5-9374-bda25b88ca13.png">
 
 
-<img width="1143" alt="S1 3 PRIGSHARE Script Input Mask" src="https://user-images.githubusercontent.com/80674342/222114658-e9ea0a2a-130b-4756-91c8-962fa43506bd.png"> Input Mask
+# Input Mask
+<img width="1633" alt="Input Mask Nantes" src="https://user-images.githubusercontent.com/80674342/222807428-23f5905c-dae4-44b1-93df-8c56e2c4a7c6.png">
 
+# Algoritm Output
+<img width="1527" alt="Output Example" src="https://user-images.githubusercontent.com/80674342/222808104-d126a918-12a1-46ec-b330-c9a11599652d.png">
 
-Algorithm Output
 
 ---
 # Graphical Model
-![S1 4 PRIGSHARE_Graphical_Model](https://user-images.githubusercontent.com/80674342/222114805-cd62806d-0ec4-4531-a85f-8cb4b7b2b27d.png)
+<img width="850" alt="Graphical Model" src="https://user-images.githubusercontent.com/80674342/222807311-24524c53-ddf7-4b9c-8f2e-61d53e9c4379.png">
 
 ---
 # FAQ
 
 ### How long does the calculation take approximately? The calculation time is very long and not progressing for a long time.
 
-A calculation of all indicators takes about 6 hours on a MacBook pro with M1 processor for around 400 observations. Depending on your own machine and the number of observations this might take considerably longer. Even if the loading bar is not progressing for some time and QGIS seems to be frozen, the machine should be working in the background. We suggest running the algorithm before you leave your desk and just letting it run overnight. 
+A calculation of all indicators takes about 8 hours on a MacBook pro with M1 processor for around 400 observations. Depending on your own machine and the number of observations this might take considerably longer. Even if the loading bar is not progressing for some time and QGIS seems to be frozen, the machine should be working in the background. We suggest running the algorithm before you leave your desk and just letting it run overnight. 
 
 ### The Log shows “no spatial index exists for join layer, performance will be severely degraded”.
 
