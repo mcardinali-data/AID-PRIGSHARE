@@ -1,5 +1,6 @@
 # AID-PRIGSHARE
 ## Automazition of Indicator Development for Green Space Health Research in QGIS
+## Accompanying Script to the PRIGSHARE Reporting Guidelines.
 
 The PRIGSHARE_QGIS_Script will produce green space and greenness indicators in distances from 100-1.500m every 100m automatically. 
 
@@ -50,45 +51,44 @@ Hint: Take care of potential bias. Often geolocation algorithms are not able to 
 Please provide the exact name of the field in your individual geolocation point layer that is a unique identifier for each individual.
 
 ### Walkability Layer (Street Network)
->  Needed for Accessibility Assessment / otherwise optional.
+>  Needed for to calculate Buffered Service Areas - otherwise optional.
 
 Please provide a line layer with the street network.
 
 ### Vegetation Index (needs to be vectorized)
-> Needed for Vegetative Assessment / otherwise optional
+> Needed for Vegetation Assessment - otherwise optional
 
 Please provide a vectorized vegetation index polygon layer. 
 
 
 ### Public Green Space Layer
-> Needed for Spatial Assessment / otherwise optional
+> Needed for Spatial Assessment - otherwise optional
 
 Please provide a polygon layer with the public green spaces of your study area. 
 
 
 ### Semi-Public Green Spaces (will add SPGS indicator)
-> Needed to calculate semi-public green spaces / otherwise optional.
+> Needed to calculate semi-public green spaces - otherwise optional.
 
 Please provide a polygon layer with the lots of multi-story residential buildings derived from a cadastre map of your study area. 
 If provided, the PRIGSHARE algorithm will add the indicator SPGS (Semi-Public Green Space) to the database for people living in these buildings.
 
 ### Private Green Space (will add PRGS indicator)
-> Needed to calculate private green spaces / otherwise optional.
+> Needed to calculate private green spaces - otherwise optional.
 
 Please provide a polygon layer with the lots of one-family homes derived from a cadastre map of your study area. 
 If provided, the PRIGSHARE algorithm will add the indicator PRGS (Private Green Space) to the database for people with a private garden.
 
 
 ### Buildings (will subtract building footprint from all green spaces if provided)
-> Needed to calculate semi-public and private green spaces / otherwise optional.
+> Needed to calculate semi-public and private green spaces - otherwise optional.
 
-Please provide a polygon layer with the building footprints of your study area. 
+Please provide a polygon layer with the building footprints of your study area. This layer is needed to subtract building footprint from the plot.
 
-### Green Space Uses - Playgrounds, Sports, Gardening, Social, Other
+### Green Space Uses (Playgrounds, Sports, Gardening, Social, Cultural,..)
 > Needed to assess the potential uses in green spaces around an individual / otherwise optional
 
-Please provide a point layer with the green space uses of your study area. For example a point for every playground, fireplace, urban gardening, sports field, and maybe even walking entries in bigger parks as a proxy for the walkability they provide. 
-If provided, the PRIGSHARE algorithm will add the indicators GS_uses and GS_diversity to the database for distances from 100m - 1500m.
+Please provide a point layer with the green space uses of your study area. For example a point for every playground, fireplace, urban gardening, sports field, and maybe even walking entries in bigger parks as a proxy for the walkability they provide. If provided, the PRIGSHARE algorithm will add the indicators GS_uses and GS_diversity to the database for distances from 100m - 1500m. Due to limitations in the algorithm the script will only work for this indicator if all 6 point layers are provided. A work around is to create empty layers, if you don't have/don't want to count 6 different uses.
 
 ## ADAPTING AND CHANGING THE SCRIPT ##
 In order to change the algorithm (e.g. to generate output with more/other distances), you can open the file from the processing toolbox of QGIS and click on „load existing model“. Or you can right-click on the model file in the browser panel and click „edit model“. Here is the documentation to work with the graphical modeler: https://docs.qgis.org/3.22/en/docs/user_manual/processing/modeler.html
