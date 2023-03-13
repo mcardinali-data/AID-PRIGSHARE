@@ -107,7 +107,7 @@ In order to change the algorithm (e.g. to generate output with more/other distan
 
 ---
 # Graphical Model
-<img width="850" alt="Graphical Model" src="https://user-images.githubusercontent.com/80674342/222807311-24524c53-ddf7-4b9c-8f2e-61d53e9c4379.png">
+![Fig1 Graphical Model](https://user-images.githubusercontent.com/80674342/224657200-76a8ea44-70f1-4655-8027-a71d4e70496f.jpg)
 
 ---
 # FAQ
