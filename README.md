@@ -1,10 +1,10 @@
 # AID-PRIGSHARE
-## Automazition of Indicator Development for Green Space Health Research in QGIS
+## Automation of Indicator Development for Green Space Health Research in QGIS
 ## Accompanying Script to the PRIGSHARE Reporting Guidelines.
 
 The PRIGSHARE_QGIS_Script will produce green space and greenness indicators in distances from 100-1.500m every 100m automatically. 
 
-A frequent demand in the interdisciplinary field of green space health research is to reduce the effort to assess green space, especially for non-spatial disciplines. Realizing this issue, we developed AID-PRIGSHARE. AID-PRIGSHARE is an open-source script with an easy-to-use user interface that substantially reduces the time-intensive and complex task of green space indicator generation by automatization. AID-PRIGSHARE will simultaneously calculate indicators such as mean greenness, total public green space, access to green infrastructure, and green space uses for distances of 100-1500m in 100m steps around a (home) address if the input layers are provided. This substantially reduces the effort for sensitivity analysis and may provide support for research that aims to better understand the individual characteristics of green spaces and their effect range. 
+A frequent demand in the interdisciplinary field of green space health research is to reduce the effort to assess green space, especially for non-spatial disciplines. Realizing this issue, we developed AID-PRIGSHARE. AID-PRIGSHARE is an open-source script with an easy-to-use user interface that substantially reduces the time-intensive and complex task of green space indicator generation by automatization. AID-PRIGSHARE will simultaneously calculate indicators such as mean greenness, total public green space, access to green infrastructure, and green space uses for distances of 100-1500m in 100m steps around a (home) address if the input layers are provided. This substantially reduces the effort for sensitivity analysis and may support research that aims to understand better the individual characteristics of green spaces and their effect range.
 
 The script requires the input of addresses of individuals (point layer). Other inputs are only necessary for specific calculations (see input parameters below).
 
