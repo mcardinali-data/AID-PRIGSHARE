@@ -15,7 +15,7 @@ The script requires the input of addresses of individuals (point layer). Other i
 ---
 ## BEFORE YOU BEGIN 
 Thank you for using the PRIGSHARE algorithm to generate green space indicators.
-The validity of the algorithm output will depend on the validity of the input layers provived. Please check the PRIGSHARE Reporting Guidelines for common sources of bias in green space assessment and use the guidelines to eliminate noise from your data as much as possible. 
+The validity of the algorithm output will depend on the validity of the input layers provived. Please check the PRIGSHARE Reporting Guidelines (https://doi.org/10.1016/j.envres.2023.115893) for common sources of bias in green space assessment and use the guidelines to eliminate noise from your data as much as possible. 
 
       Cardinali, M., Beenackers, M. A., van Timmeren, A., & Pottgiesser, U. (2023a). 
       Preferred reporting items in green space health research. 
@@ -23,7 +23,7 @@ The validity of the algorithm output will depend on the validity of the input la
       https://doi.org/10.1016/j.envres.2023.115893
     
 
-If you used AID-PRIGSHARE in your research, please cite the following paper:
+If you used AID-PRIGSHARE (https://doi.org/10.1016/j.simpa.2023.100506) in your research, please cite the following paper:
 
       Cardinali, M., Beenackers, M. A., van Timmeren, A., & Pottgiesser, U. (2023b). 
       AID-PRIGSHARE: Automatization of indicator development in green space health research in QGIS. 
