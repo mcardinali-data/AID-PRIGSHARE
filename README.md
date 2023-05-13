@@ -19,14 +19,16 @@ The validity of the algorithm output will depend on the validity of the input la
 
       Cardinali, M., Beenackers, M. A., van Timmeren, A., & Pottgiesser, U. (2023a). 
       Preferred reporting items in green space health research. 
-      Guiding principles for an interdisciplinary field. Environmental Research, 228, 115893. https://doi.org/10.1016/j.envres.2023.115893
+      Guiding principles for an interdisciplinary field. Environmental Research, 228, 115893. 
+      https://doi.org/10.1016/j.envres.2023.115893
     
 
 If you used AID-PRIGSHARE in your research, please cite the following paper:
 
       Cardinali, M., Beenackers, M. A., van Timmeren, A., & Pottgiesser, U. (2023b). 
       AID-PRIGSHARE: Automatization of indicator development in green space health research in QGIS. 
-      Accompanying script to the PRIGSHARE reporting guidelines. Software Impacts, 100506. https://doi.org/10.1016/j.simpa.2023.100506
+      Accompanying script to the PRIGSHARE reporting guidelines. Software Impacts, 100506. 
+      https://doi.org/10.1016/j.simpa.2023.100506
      
 
 ---
