@@ -122,6 +122,10 @@ In order to change the algorithm (e.g. to generate output with more/other distan
 
 A calculation of all indicators takes about 8 hours on a MacBook pro with M1 processor for around 400 observations. Depending on your own machine and the number of observations this might take considerably longer. Even if the loading bar is not progressing for some time and QGIS seems to be frozen, the machine should be working in the background. We suggest running the algorithm before you leave your desk and just letting it run overnight. 
 
+### My system crashed when I try to run the tool with all layers.
+
+For some users QGIS unexpectedly ends when they run the algorithm with all layers requests. This problem seems to be related to the amount of free RAM available. For older machines or those with 8GB of RAM or lower we recommend to close all other applications and/or take a stepwise approach when running the algorithm.  
+
 ### The Log shows “no spatial index exists for join layer, performance will be severely degraded”.
 
 Spatial indices simply speed up processing. The warning communicates that the calculation time will be longer without a spatial index, but this will not affect the result. If you have a very large dataset and want to speed up the process, consider adding a spatial index to your layer(s).
